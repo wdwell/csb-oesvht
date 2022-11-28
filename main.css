@@ -60,31 +60,24 @@ h1 {
   height: 122px;
   left: 15px;
   top: 0px;
-  /* Заголовок h1 */
   font-weight: 500;
   font-size: 55px;
   line-height: 110%;
-  /* or 61px */
   letter-spacing: 0.02em;
-
   color: #000000;
 }
 h2 {
   font-weight: 500;
   font-size: 40px;
   line-height: 110%;
-  /* identical to box height, or 44px */
   letter-spacing: 0.02em;
-
   color: #000000;
 }
 h4 {
   font-weight: 500;
   font-size: 20px;
   line-height: 140%;
-  /* identical to box height, or 28px */
   letter-spacing: 0.02em;
-
   color: #000000;
   margin-bottom: 7px;
   margin-top: 24px;
@@ -94,19 +87,18 @@ p {
   height: 84px;
   left: 15px;
   top: 167px;
-
-  /* Крупный текст */
   font-weight: 400;
   font-size: 20px;
   line-height: 140%;
-  /* or 28px */
   text-align: right;
   letter-spacing: 0.02em;
 }
 .buttonblock {
+  margin-top: 60px;
   display: flex;
   align-items: center;
   margin-left: 130px;
+  height: 60px;
 }
 
 .btn > a {
@@ -126,6 +118,7 @@ p {
   color: black;
   background-color: rgba(110, 156, 159, 0.1);
   transition: background-color 0.5s;
+  height: 100%;
 }
 
 .vector > a {
@@ -159,10 +152,7 @@ p {
   font-weight: 500;
   font-size: 15px;
   line-height: 140%;
-  /* identical to box height, or 21px */
   letter-spacing: 0.02em;
-
-  /* Дополнительный акцент */
   color: #998e78;
 }
 
@@ -175,11 +165,9 @@ p {
   font-size: 16px;
   margin-left: auto;
   margin-right: auto;
-  /*transition: all 0.5s;*/
   background-color: transparent;
   border: 1px solid #6e9c9f;
-  transition: color 0.5s;
-  transition: border 0.5s;
+  transition: color 0.5s linear;
 }
 .button > a:hover {
   color: #4a898d;
@@ -197,7 +185,6 @@ p {
   font-weight: 500;
   font-size: 25px;
   line-height: 140%;
-  /* identical to box height, or 35px */
   letter-spacing: 0.02em;
   color: #000000;
 }
@@ -205,9 +192,7 @@ p {
   font-weight: 500;
   font-size: 17px;
   line-height: 140%;
-  /* or 24px */
   letter-spacing: 0.02em;
-
   color: #000000;
 }
 .left {
@@ -309,9 +294,4 @@ p {
   text-decoration: none;
 }
 
-/*звонилка*/
-.phone:hover .body {
-  background-color: blue;
-  opacity: 1;
-  z-index: 2;
-}
+/*---------------------------звонилка-------------------------------------*/

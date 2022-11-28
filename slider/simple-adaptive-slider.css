@@ -87,11 +87,11 @@
 }
 
 .itcss__btn_prev::before {
-  background-image: url(/img/left.svg);
+  background-image: url(../img/left.svg);
 }
 
 .itcss__btn_next::before {
-  background-image: url(/img/right.svg);
+  background-image: url(../img/right.svg);
 }
 
 /* Индикаторы */
