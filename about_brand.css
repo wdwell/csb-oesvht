@@ -1,0 +1,33 @@
+.conteiner {
+    display: flex;
+}
+.block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 108px;
+}
+.text_block {
+    width: 33.875rem;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.img_block {
+    width: 27.625rem;
+}
+.lef {
+    margin-right: 94px;
+}
+.caps {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 46px;
+}
+.btn_store {
+    justify-content: center;
+}
