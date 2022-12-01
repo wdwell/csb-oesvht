@@ -1,7 +1,6 @@
 .index_store {
     display: flex;
     margin-top: 26px;
-    margin-bottom: 214px;
   }
   .active {
     color: #6e9c9f !important;
@@ -28,11 +27,12 @@
     margin-right: auto;
     background-color: transparent;
     border: 1px solid #000000;
-    transition: color 0.5s linear;
+    transition: color 0.5s linear; 
+    transition: border-color 0.5s;
   }
   .button_store > a:hover {
-    color: #545454;
-    border: 1px solid #545454;
+    color: #464646;
+    border: 1px solid #464646;
   }
   .active_store {
     background-color: black !important;
@@ -51,7 +51,6 @@
   .button_store_f {
     display: flex;
     justify-content: center;
-    margin-bottom: 92px;
   }
   .button_store_f > div {
     margin-right: 10px;
@@ -68,6 +67,7 @@
     background-color: transparent;
     border: 1px solid #000000;
     transition: color 0.5s linear;
+    transition: border-color 0.5s;
   }
   .button_store_f > a:hover {
     color: #545454;
