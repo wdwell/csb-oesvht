@@ -3,6 +3,13 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: #FFFFFF !important;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05); /*как прицепить анимацию появления этой хрени при скроле*/
+  z-index: 999;
+}
 .background {
   background-color: #f1eadc;
 }
