@@ -1,0 +1,18 @@
+.success {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 220px;
+    margin-bottom: 136px;
+}
+.img_success {
+    width: 72px;
+}
+.txt_success {
+    width: 360px;
+    margin-left: 40px;
+}
+.success_flex {
+    display: flex;
+    align-items: center;
+}
