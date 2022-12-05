@@ -3,13 +3,16 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+
 .sticky {
   position: sticky;
   top: 0;
   background-color: #FFFFFF !important;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05); /*как прицепить анимацию появления этой хрени при скроле*/
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.05);
+  /*как прицепить анимацию появления этой хрени при скроле*/
   z-index: 999;
 }
+
 .background {
   background-color: #f1eadc;
 }
@@ -17,6 +20,7 @@ body {
 .mrg {
   margin: 115px 0 0 0 !important;
 }
+
 .cube {
   position: absolute;
   right: 0;
@@ -24,30 +28,36 @@ body {
   height: 51.625rem;
   background-color: #f1eadc;
 }
+
 .row {
   display: flex;
   justify-content: center;
 }
+
 .section {
   z-index: 10;
   width: 1080px;
   background-color: transparent;
 }
+
 .header {
   padding: 3.438rem 0 2.813rem 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .menu {
   display: flex;
   margin: 0;
 }
-.menu > li {
+
+.menu>li {
   list-style-type: none;
   margin-right: 45px;
 }
-.menu > li > a {
+
+.menu>li>a {
   text-decoration: none;
   font-weight: 400;
   font-size: 15px;
@@ -55,40 +65,39 @@ body {
   color: #000000;
   transition: color 0.5s linear;
 }
-.menu > li > a:hover {
+
+.menu>li>a:hover {
   color: #476569;
 }
-.menu .active > a {
+
+.menu .active>a {
   color: #6e9c9f;
 }
+
 /*====================контент========================*/
 h1 {
-  width: 585px;
-  height: 122px;
-  left: 15px;
-  top: 0px;
   font-weight: 500;
   font-size: 55px;
   line-height: 110%;
-  letter-spacing: 0.02em;
   color: #000000;
 }
+
 h2 {
   font-weight: 500;
   font-size: 40px;
   line-height: 110%;
-  letter-spacing: 0.02em;
   color: #000000;
 }
+
 h4 {
   font-weight: 500;
   font-size: 20px;
   line-height: 140%;
-  letter-spacing: 0.02em;
   color: #000000;
   margin-bottom: 7px;
   margin-top: 24px;
 }
+
 p {
   width: 385px;
   height: 84px;
@@ -100,6 +109,7 @@ p {
   text-align: right;
   letter-spacing: 0.02em;
 }
+
 .buttonblock {
   margin-top: 60px;
   display: flex;
@@ -108,7 +118,7 @@ p {
   height: 60px;
 }
 
-.btn > a {
+.btn>a {
   padding: 20px;
   text-decoration: none;
   color: white;
@@ -117,7 +127,8 @@ p {
   background-color: #6e9c9f;
   transition: background-color 0.5s;
 }
-.btn > a:hover {
+
+.btn>a:hover {
   background-color: #608d91;
 }
 
@@ -128,7 +139,7 @@ p {
   height: 100%;
 }
 
-.vector > a {
+.vector>a {
   padding: 20px;
   text-decoration: none;
   font-size: 17px;
@@ -137,6 +148,7 @@ p {
 .vector:hover {
   background-color: rgba(46, 78, 80, 0.1);
 }
+
 .content {
   display: flex;
   justify-content: space-between;
@@ -146,15 +158,18 @@ p {
   width: 350px;
   height: 478px;
 }
+
 .center {
   display: flex;
   justify-content: center;
 }
-.flex > div {
+
+.flex>div {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .price {
   font-weight: 500;
   font-size: 15px;
@@ -163,7 +178,7 @@ p {
   color: #998e78;
 }
 
-.button > a {
+.button>a {
   color: #6e9c9f;
   padding: 15px 32px;
   text-align: center;
@@ -176,16 +191,18 @@ p {
   border: 1px solid #6e9c9f;
   transition: color 0.5s linear;
 }
-.button > a:hover {
+
+.button>a:hover {
   color: #4a898d;
   border: 1px solid #4a898d;
 }
 
-.flexleft > div {
+.flexleft>div {
   display: flex;
   justify-content: left;
   align-items: center;
 }
+
 .card {
   margin-top: 37px;
   margin-bottom: 24px;
@@ -195,6 +212,7 @@ p {
   letter-spacing: 0.02em;
   color: #000000;
 }
+
 .card_content {
   font-weight: 500;
   font-size: 17px;
@@ -202,11 +220,13 @@ p {
   letter-spacing: 0.02em;
   color: #000000;
 }
+
 .left {
   text-align: left;
   margin-left: 124px;
 }
-.about > a {
+
+.about>a {
   text-decoration: none;
   font-weight: 500;
   font-size: 17px;
@@ -215,23 +235,27 @@ p {
   color: #6e9c9f;
   transition: color 0.5s linear;
 }
-.about > a:hover {
+
+.about>a:hover {
   color: #508488;
 }
+
 .footer {
   padding: 104px 0 73px 0;
   display: flex;
   align-items: start;
   justify-content: space-between;
 }
-.right > div {
+
+.right>div {
   text-align: right;
 }
 
-.menu > li > div {
+.menu>li>div {
   list-style-type: none;
 }
-.menu > li > div > a {
+
+.menu>li>div>a {
   text-decoration: none;
   font-weight: 400;
   font-size: 15px;
@@ -240,9 +264,11 @@ p {
   transition: color 0.5s linear;
   margin-top: 10px;
 }
-.menu > li > div > a:hover {
+
+.menu>li>div>a:hover {
   color: #476569;
 }
+
 .copy {
   margin-top: 70px;
   font-weight: 400;
@@ -250,6 +276,7 @@ p {
   line-height: 140%;
   color: #000000;
 }
+
 .itcss730px {
   max-width: 730px !important;
 }
@@ -257,31 +284,40 @@ p {
 .image_cont {
   width: 30%;
 }
+
 .image_cont:hover about .image img {
   opacity: 0.7;
 }
+
 .image {
   background: rgba(110, 156, 159, 0.64);
 }
+
 .image img {
   transition: opacity 1s linear;
 }
+
 .about_item {
   position: relative;
 }
+
 .about_item:hover .about_img img {
   opacity: 0.7;
 }
+
 .about_img {
   background: rgba(110, 156, 159, 0.64);
 }
+
 .about_img img {
   display: block;
   transition: opacity 0.5s linear;
 }
+
 .about_item:hover .about_text {
   opacity: 1;
 }
+
 .about_text {
   width: 100%;
   text-transform: uppercase;
@@ -295,10 +331,9 @@ p {
   transform: translate3d(0, -50%, 0);
   transition: opacity 0.2s linear;
 }
-.about_text > a {
+
+.about_text>a {
   font-size: 38px;
   color: #fff;
   text-decoration: none;
 }
-
-/*---------------------------звонилка-------------------------------------*/
