@@ -1,5 +1,10 @@
 .conteiner {
     display: flex;
+    margin-top: 200px;
+}
+
+.head_txt {
+    margin-top: 196px;
 }
 
 .block {
@@ -36,4 +41,43 @@
 
 .btn_store {
     justify-content: center;
+}
+
+@media (max-width: 1060px) {
+    .block {
+        display: block;
+    }
+
+    .lef {
+        margin: 0;
+    }
+
+    .img_block>img {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 320px;
+
+    }
+
+    .img_block {
+        margin-left: auto;
+        margin-right: auto;
+        width: 320px;
+    }
+
+    .conteiner {
+        margin-top: 0;
+    }
+
+    .head_txt {
+        margin-top: 50px;
+    }
+
+    .text_block {
+        width: auto;
+    }
+
+    .section {
+        width: auto;
+    }
 }

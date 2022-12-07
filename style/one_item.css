@@ -115,3 +115,37 @@
 .flex_left {
   justify-content: left !important;
 }
+
+.one_it_mob {
+  margin-right: 80px;
+}
+
+.one_it_mob>img {
+  width: 536px;
+}
+
+@media (max-width: 900px) {
+  .one_it_mob {
+    margin-right: 0px;
+  }
+
+  .one_it_mob>img {
+    width: auto;
+  }
+
+  .space {
+    display: block;
+  }
+
+  .button_store_f {
+    justify-content: flex-start;
+  }
+
+  .buttonblock {
+    justify-content: flex-start;
+  }
+
+  .size {
+    width: auto;
+  }
+}

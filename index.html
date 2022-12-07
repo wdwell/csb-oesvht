@@ -26,13 +26,13 @@
       });
     });
   </script>
+  <script defer src="header.js"></script>
   <title>Womazing</title>
 </head>
 
 <body>
-  <div class="cube"></div>
+  <div class="cube mobile_display_none"></div>
   <div class="row sticky">
-    <!--как вписать прямоугольник cube?-->
     <div class="section">
       <div class="header">
         <div><a href="index.html"><img src="./img/logo.svg" alt="" /></a></div>
@@ -43,19 +43,37 @@
             <li><a href="about_brand.html">О бренде</a></li>
             <li><a href="contacts.html">Контакты</a></li>
         </div>
-        <div style="display: flex;">
+        <div class="mobile_display_none" style="display: flex;">
           <div class="cal">
             <a href="#"><img style="margin-right: 15px;" src="./img/telephone 1.svg" alt="" /></a>
           </div>
           <div>+7 (495) 823-54-12</div>
           <a style="margin-left: 73px;" href="basket.html"><img src="./img/basket.svg" alt="" /></a>
         </div>
+
+
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+
+          <ul class="menu__box">
+            <li><a class="menu__item active" href="index.html">Главная</a></li>
+            <li><a class="menu__item" href="store.html">Магазин</a></li>
+            <li><a class="menu__item" href="about_brand.html">О бренде</a></li>
+            <li><a class="menu__item" href="contacts.html">Контакты</a></li>
+          </ul>
+        </div>
+
+
       </div>
     </div>
   </div>
   <div class="row">
     <div class="section">
       <div class="content">
+        <div class="btn mobile"><a href="store.html">Открыть магазин</a></div>
         <div class="itcss slider mrg">
           <div class="itcss__wrapper">
             <div class="itcss__items">
@@ -103,7 +121,7 @@
             </div>
           </div>
         </div>
-        <div style="height: 652px; position: relative;">
+        <div class="mobile_display_none" style="height: 652px; position: relative;">
           <img src="./img/dmitriy-7DD6tfTKqS4-unsplash 1.png" alt="" />
           <img style="position:absolute;right: -115px;top: 128px;height: 197px;width: 197px;"
             src="./img/ionut-comanici-RDcEWH5hSDE-unsplash 1.png" alt="" />
@@ -115,7 +133,7 @@
   </div>
   <div class="row">
     <div class="section">
-      <div>
+      <div class="mobile_flex">
         <h2 style="margin-top:130px; margin-bottom:92px">Новая коллекция</h2>
       </div>
       <div class="content">
@@ -168,7 +186,7 @@
           <a href="store.html">Открыть магазин</a>
         </div>
       </div>
-      <div>
+      <div class="mobile_flex">
         <h2>Что для нас важно</h2>
       </div>
       <div class="content">
@@ -191,12 +209,12 @@
             труда - все<br>это Womazing</div>
         </div>
       </div>
-      <div style="margin-top: 130px; margin-bottom:92px;">
+      <div class="mobile_flex mobile_display_none" style="margin-top: 130px; margin-bottom:92px;">
         <h2>Команда мечты Womazing</h2>
       </div>
       <div class="content" style="margin-bottom:130px;">
 
-        <div class="itcss slider2 itcss730px">
+        <div class="itcss slider2 itcss730px mobile_display_none">
           <div class="itcss__wrapper">
             <div class="itcss__items">
               <div class="itcss__item">

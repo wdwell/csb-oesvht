@@ -87,3 +87,14 @@
   color: #545454;
   border: 1px solid #545454;
 }
+
+@media (max-width: 1060px) {
+  .button_store {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .button_store>a {
+    width: 250px;
+  }
+}

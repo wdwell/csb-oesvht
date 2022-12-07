@@ -12,14 +12,15 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap" rel="stylesheet" />
+  <script defer src="header.js"></script>
   <title>Корзина</title>
 </head>
 
 <body>
-  <div class="row sticky">
+  <div class="row_basket sticky">
     <div class="section">
       <div class="header">
-        <div><a href="index.html"><img src="./img/logo.svg" alt="" /></a></div>
+        <div class="logo"><a href="index.html"><img src="./img/logo.svg" alt="" /></a></div>
         <div>
           <ul class="menu">
             <li><a href="index.html">Главная</a></li>
@@ -27,17 +28,30 @@
             <li><a href="about_brand.html">О бренде</a></li>
             <li><a href="contacts.html">Контакты</a></li>
         </div>
-        <div style="display: flex;">
+        <div class="mobile_display_none" style="display: flex;">
           <div class="cal">
             <a href="#" id="open_pop_up"><img style="margin-right: 15px;" src="./img/telephone 1.svg" alt="" /></a>
           </div>
           <div>+7 (495) 823-54-12</div>
           <a style="margin-left: 73px;" href="basket.html"><img src="./img/basket.svg" alt="" /></a>
         </div>
+        <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+
+          <ul class="menu__box">
+            <li><a class="menu__item active" href="index.html">Главная</a></li>
+            <li><a class="menu__item" href="store.html">Магазин</a></li>
+            <li><a class="menu__item" href="about_brand.html">О бренде</a></li>
+            <li><a class="menu__item" href="contacts.html">Контакты</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row_basket">
     <div class="section">
       <h1 style="margin-top:196px;">Корзина</h1>
       <div class="index_store">
@@ -47,7 +61,7 @@
       </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row_basket ">
     <div class="section" style="margin-top: 200px;">
       <div class="wrapper head" style="font-size: 20px; line-height: 140%; padding-bottom: 25px;">
         <div>Товар</div>
@@ -55,7 +69,6 @@
         <div>Количество</div>
         <div>Всего</div>
       </div>
-
       <div class="wrapper pad item" style="font-size: 17px; line-height: 140%;">
         <div class="items">
           <div>X</div>
@@ -72,9 +85,29 @@
         </div>
         <div>$129</div>
       </div>
+      <div class="wrapper_mobile head" style="font-size: 20px; line-height: 140%; padding-bottom: 25px;">
+        <div>Товар</div>
+        <div class="items_mobile">
+          <div>X</div>
+          <div><img style="height: 200px;" src="img/Фото товара.png" alt=""></div>
+          <div>Футболка USA</div>
+        </div>
+        <div>Цена</div>
+        <div>$129</div>
+        <div>Количество</div>
+        <div>
+          <div class="buttonblock none">
+            <div class="btn_white" style="margin-right: 10px;">
+              <a href="#">1</a>
+            </div>
+          </div>
+        </div>
+        <div>Всего</div>
+        <div>$129</div>
+      </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row_basket">
     <div class="section" style="margin-top: 80px;">
       <div class="basket_block">
         <div class="basket_block_1">
@@ -92,22 +125,22 @@
       </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row_basket">
     <div class="section" style="margin-top: 80px; margin-bottom: 140px;">
-      <div style="margin-left: 50%; display: flex; margin-bottom: 30px;">
+      <div class="mobile_display_none" style="margin-left: 50%; display: flex; margin-bottom: 30px;">
         <div>Подытог:&ensp;</div>
         <div>&ensp;$129</div>
       </div>
       <div class="basket_button_block">
         <div class="basket_style" style="display: flex;">
-          <div>Подытог:&ensp;&ensp;</div>
+          <div>Итого:&ensp;&ensp;</div>
           <div>&ensp;&ensp;$129</div>
         </div>
         <div class="btn_green"><a href="#">Оформить заказ</a></div>
       </div>
     </div>
   </div>
-  <div class="row background">
+  <div class="row_basket background">
     <div class="section">
       <div class="footer">
         <div><a href="index.html"><img src="./img/logo.svg" alt="" /></a>

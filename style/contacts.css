@@ -144,3 +144,45 @@
   bottom: auto;
   color: #363636;
 }
+
+.row_mobile {
+  display: block;
+}
+
+.section_mobile {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+}
+
+#map {
+  width: 100%;
+  height: 476px;
+}
+
+@media (max-width: 1060px) {
+  .section_mobile {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1060px) {
+  .flex_contact {
+    display: block;
+    margin-bottom: 50px;
+  }
+
+  .contacts_widch443 {
+    width: auto;
+  }
+
+  .btn_cont {
+    width: auto;
+  }
+
+  .contacts_widch350 {
+    width: auto;
+  }
+
+}

@@ -91,3 +91,19 @@
 .custom-checkbox:disabled+label::before {
   background-color: #ffffff;
 }
+
+@media (max-width: 1060px) {
+  .hamburger-menu {
+    display: block;
+  }
+}
+
+@media (max-width: 960px) {
+  .conteiner_checkout {
+    display: inline;
+  }
+
+  .btn {
+    margin-bottom: 40px;
+  }
+}
